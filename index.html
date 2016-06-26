@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Gllacy</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="b1">
+<header class="clearfix">
+    <div class="logo">
+        <img src="pics/logo.png" alt="logo">
+    </div>
+    <nav>
+        <ul>
+            <li class="catalog">
+                <a href="catalog.html">Каталог</a>
+                <ul class="dropdown">
+                    <li class="newby"><a href="#">Новинки</a></li>
+                    <hr>
+                    <li><a href="#">Сливочное</a></li>
+                    <li><a href="#">Шербеты</a></li>
+                    <li><a href="#">Фруктовый лед</a></li>
+                    <li><a href="#">Мелорин</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">О компании</a></li>
+        </ul>
+        <div id="index"></div>
+    </nav>
+    <div class="manage">
+        <a class="cart" href=""><i class="fa fa-shopping-cart fa-lg"></i>Пусто</a>
+        <div class="content">
+            <div class="item">
+                <i class="fa fa-close"></i>
+                <img src="pics/item_s1.png" alt="">
+                <span>Пломбир с апельсиновым джемом</span>
+                <span>1,5 кг<i> x 200 руб.</i></span>
+                <span>300 руб.</span>
+            </div>
+            <div class="item">
+                <i class="fa fa-close"></i>
+                <img src="pics/item_s2.png" alt="">
+                <span>Клубничный пломбир с присыпкой из белого шоколада</span>
+                <span>1,5 кг<i> x 300 руб.</i></span>
+                <span>450 руб.</span>
+            </div>
+            <span>
+                <b>Итого: 750 руб.</b>
+            </span>
+            <a href="#" class="btn">Оформить заказ</a>
+        </div>
+        <a class="enter" href="#"><i class="fa fa-sign-in fa-lg"></i> Вход</a>
+        <form action="#" class="login">
+            <input type="text" class="email" placeholder="Электропочта" required>
+            <input type="password" class="password" placeholder="Пароль" required>
+            <button class="btn">Войти</button>
+            <div class="reg">
+                <a href="">Забыли пароль?</a>
+                <br>
+                <a href="">Новая регистрация</a>
+            </div>
+        </form>
+        <a href="#" id="sBtn"><i class="fa fa-search"></i></a>
+        <form class="search" action="#">
+            <input type="text" placeholder="Что ищем?">
+        </form>
+    </div>
+    <div class="phone">
+        <p>С 10 до 20, ежедневно</p>
+        <p>8 812 450-25-25</p>
+    </div>
+</header>
+<main>
+    <div class="promo">
+        <h2>Крем-брюле и пломбир с малиновым джемом</h2>
+        <div class="indicators">
+            <div id="tmblr1" class="select"></div>
+            <div id="tmblr2"></div>
+            <div id="tmblr3"></div>
+        </div>
+        <a href="" class="buy-main btn">Давайте оба!</a>
+    </div>
+    <div class="banners">
+        <article class="banner-left">
+            <h3>Малинка даром!</h3>
+            <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш
+                заказ банку малинового варенья бесплатно.</p>
+            <a href="" class="btn">Хочу варенье!</a>
+        </article>
+        <article class="banner-right">
+            <h3>Шоколадки даром!</h3>
+            <p>При покупке 2 кг пломбира, добавим в ваш
+                заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+            <a href="" class="btn">Хочу шоколадки!</a>
+        </article>
+    </div>
+    <div class="hits">
+        <section class="hit">
+            <img src="pics/hit.png" alt="" class="hit-mark">
+            <img src="pics/h1.png" alt="" class="ice-cream">
+            <p class="price">310 Р/кг</p>
+            <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+        </section>
+        <section class="hit">
+            <img src="pics/hit.png" alt="" class="hit-mark">
+            <img src="pics/h2.png" alt="" class="ice-cream">
+            <p class="price">380 Р/кг</p>
+            <a href="#">Сливочно-кофейное с кусочками шоколада</a>
+        </section>
+        <section class="hit">
+            <img src="pics/hit.png" alt="" class="hit-mark">
+            <img src="pics/h3.png" alt="" class="ice-cream">
+            <p class="price">355 Р/кг</p>
+            <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+        </section>
+        <section class="hit">
+            <img src="pics/hit.png" alt="" class="hit-mark">
+            <img src="pics/h4.png" alt="" class="ice-cream">
+            <p class="price">415 Р/кг</p>
+            <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+        </section>
+    </div>
+    <div class="about clearfix">
+        <h3>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h3>
+        <p class="paragraph-left"><img src="pics/01.svg" alt="">Все наше мороженое изготавливается на собственном
+            производстве, с использованием
+            современного оборудования и проверенных временем технологий.</p>
+        <p class="paragraph-right"><img src="pics/02.svg" alt="">Закупка ингредиентов производится только у проверенных
+            фермерских хозяйств и
+            компаний, с которыми нас связывает долговременное сотрудничество.</p>
+        <p class="paragraph-left"><img src="pics/03.svg" alt="">Для приготовления мороженого используются настоящие
+            сливки и молоко высочайшего
+            качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого
+            сырья. </p>
+        <p class="paragraph-right"><img src="pics/04.svg" alt="">Доставка нашего мороженого до заказчиков осуществляется
+            в специальном термопаке,
+            которая не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.</p>
+    </div>
+    <div class="news">
+        <article class="blog-news">
+            <h5>Новое в нашем блоге</h5>
+            <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+        </article>
+        <article class="mail-news">
+            <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
+                Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
+            <input type="text" placeholder="Электропочта">
+            <button class="btn" type="submit">Отправить</button>
+        </article>
+    </div>
+</main>
+<div class="map">
+    <div id="map">
+    </div>
+    <div class="row">
+        <section class="address">
+            <p>Адрес главного офиса и<br>
+                офлайн магазина:<br>
+                <strong>ул. Большая Конюшенная<br> 19/8, Санкт-Петербург</strong>
+            </p>
+            <p>Для заказов по телефону: <br>
+                <strong>8 812 450-25-25</strong> <br>
+                (с 10 до 20 ежедневно)
+            </p>
+            <a href="#" class="btn">Форма обратной связи</a>
+        </section>
+    </div>
+</div>
+<footer class="clearfix">
+    <div class="social">
+        <a href="#"><img src="pics/twee.svg" alt="TW"></a>
+        <a href="#"><img src="pics/inst.svg" alt="INST"></a>
+        <a href="#"><img src="pics/fb.svg" alt="FB"></a>
+        <a href="#"><img src="pics/vk.svg" alt="VK"></a>
+    </div>
+    <div class="footer-center">
+        <a href="#">Для поставщиков</a>
+        <a href="#">Наши документы</a>
+        <a href="#">О производстве</a>
+        <a href="#">Экологические стандарты</a>
+    </div>
+    <div class="copy">
+        <img src="pics/html.svg" alt="" class="ha">
+        <p>Сделано в <a href="">HTML Academy</a> © 2016</p>
+    </div>
+</footer>
+<div class="callback">
+    <h3>Мы обязательно Вам ответим!</h3>
+    <input type="text" placeholder="Как Вас зовут?">
+    <input type="text" placeholder="Ваша почта для ответа">
+    <textarea name="coment" cols="30" rows="8" placeholder="Напишите что-нибудь..."></textarea>
+    <button type="submit" class="btn">Отправить</button>
+    <i class="fa fa-close fa-lg"></i>
+</div>
+<div class="overlay"></div>
+<script src="main.js"></script>
+<!--<script src="jquery-2.2.3.js"></script>-->
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDB8j_De805Tg4CwHRPkgbOKKH0mqK0w6Q&sensor=false&extension=.js'></script>
+<script>
+    google.maps.event.addDomListener(window, 'load', init);
+    var map;
+    function init() {
+        var mapOptions = {
+            center: new google.maps.LatLng(47.095793, -322.47415),
+            zoom: 17,
+            zoomControl: true,
+            zoomControlOptions: {
+                style: google.maps.ZoomControlStyle.DEFAULT,
+            },
+            disableDoubleClickZoom: true,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+            },
+            scaleControl: true,
+            scrollwheel: true,
+            panControl: true,
+            streetViewControl: true,
+            draggable: true,
+            overviewMapControl: true,
+            overviewMapControlOptions: {
+                opened: false,
+            },
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{
+                "featureType": "administrative.country",
+                "elementType": "geometry",
+                "stylers": [{"visibility": "simplified"}, {"hue": "#ff0000"}]
+            }],
+        }
+        var mapElement = document.getElementById('map');
+        var map = new google.maps.Map(mapElement, mapOptions);
+        var locations = [
+            ['Gllacy', 'Магазин по продаже мороженного собственного производства на развес', 'undefined', 'undefined', 'undefined', 47.09518358009647, 37.52437813743438, 'http://i63.tinypic.com/2q2gwt2.png']
+        ];
+        for (i = 0; i < locations.length; i++) {
+            if (locations[i][1] == 'undefined') {
+                description = '';
+            } else {
+                description = locations[i][1];
+            }
+            if (locations[i][2] == 'undefined') {
+                telephone = '';
+            } else {
+                telephone = locations[i][2];
+            }
+            if (locations[i][3] == 'undefined') {
+                email = '';
+            } else {
+                email = locations[i][3];
+            }
+            if (locations[i][4] == 'undefined') {
+                web = '';
+            } else {
+                web = locations[i][4];
+            }
+            if (locations[i][7] == 'undefined') {
+                markericon = '';
+            } else {
+                markericon = locations[i][7];
+            }
+            marker = new google.maps.Marker({
+                icon: markericon,
+                position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+                map: map,
+                title: locations[i][0],
+                desc: description,
+                tel: telephone,
+                email: email,
+                web: web
+            });
+            link = '';
+        }
+    }
+</script>
+</body>
+</html>
