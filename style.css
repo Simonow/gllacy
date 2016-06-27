@@ -1395,6 +1395,11 @@ textarea:hover, textarea:focus {
     cursor: pointer;
 }
 
+.products {
+    font-size: 0;
+    margin-bottom: 80px;
+}
+
 .overlay {
     display: none;
     position: fixed;
