@@ -594,6 +594,7 @@ nav ul > li {
     min-width: 144px;
     position: absolute;
     top: 100%;
+    z-index: 30;
     background-color: #f8f7f4;
     border-radius: 8px;
     padding: 5px 0;
@@ -1019,7 +1020,7 @@ main {
     position: relative;
 }
 
-.hit:last-child {
+.hit:nth-child(4n) {
     margin-right: 0;
 }
 
@@ -1397,7 +1398,11 @@ textarea:hover, textarea:focus {
 
 .products {
     font-size: 0;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+}
+
+.products .hit {
+    margin-bottom: 38px;
 }
 
 .overlay {
