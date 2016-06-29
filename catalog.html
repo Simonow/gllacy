@@ -73,8 +73,56 @@
         <p>С 10 до 20, ежедневно</p>
         <p>8 812 450-25-25</p>
     </div>
+    <div class="breadcrumbs">
+        <a href="index.html">Главная</a>
+        <span>&raquo;</span>
+        <a href="catalog.html">Каталог</a>
+        <span>&raquo;</span>
+        <span>Сливочное мороженое</span>
+    </div>
 </header>
 <main>
+    <h3 class="page-title">Сливоченое мороженое</h3>
+    <form class="filter" action="">
+        <figure>
+            <figcaption>Сортировка:</figcaption>
+            по популярности
+            <ul>
+                <li>сначала дорогие</li>
+                <li>сначала недорогие</li>
+                <li>по жирности</li>
+            </ul>
+        </figure>
+        <figure class="range">
+            <figcaption>Цена до: <output>100</output> грн.</figcaption>
+            <input type="range" min="0" max="800" value="0">
+        </figure>
+        <fieldset>
+            <legend>Жирность:</legend>
+            <input id='zero' type="radio" name="oil">
+            <label for="zero">0%</label>
+            <input id='ten' type="radio" name="oil">
+            <label for="ten">до 10%</label>
+            <input id='thirty' type="radio" name="oil">
+            <label for="thirty">до 30%</label>
+            <input id='over-thirty' type="radio" name="oil">
+            <label for="over-thirty">свыше 30%</label>
+        </fieldset>
+        <fieldset>
+            <legend>Наполнители:</legend>
+            <input id='choco' type="checkbox" name="oil">
+            <label for="choco">шоколадные</label>
+            <input id='sugar' type="checkbox" name="oil">
+            <label for="sugar">сахарные присыпки</label>
+            <input id='fruit' type="checkbox" name="oil">
+            <label for="fruit">фрукты</label>
+            <input id='syrup' type="checkbox" name="oil">
+            <label for="syrup">сиропы</label>
+            <input id='jam' type="checkbox" name="oil">
+            <label for="jam">джемы</label>
+        </fieldset>
+        <button type="submit">Применить</button>
+    </form>
     <div class="products">
         <section class="product">
             <div class="card">

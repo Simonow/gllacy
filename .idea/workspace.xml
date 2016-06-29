@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7419353">
-              <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
               <folding>
                 <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -40,8 +40,8 @@
       <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.5161295">
-              <caret line="134" column="33" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4851936">
-              <caret line="817" column="16" selection-start-line="817" selection-start-column="16" selection-end-line="817" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5181818">
+              <caret line="950" column="23" selection-start-line="950" selection-start-column="23" selection-end-line="950" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -153,7 +153,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -269,11 +269,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467051188540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="complete products list &amp; animation">
+      <created>1467127591743</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1467127591743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2487395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -311,7 +317,8 @@
     <MESSAGE value="minor text changes" />
     <MESSAGE value="add catalog products" />
     <MESSAGE value="formating products" />
-    <option name="LAST_COMMIT_MESSAGE" value="formating products" />
+    <MESSAGE value="complete products list &amp; animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete products list &amp; animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -747,28 +754,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5161295">
-          <caret line="134" column="33" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7419353">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
           <folding>
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4851936">
-          <caret line="817" column="16" selection-start-line="817" selection-start-column="16" selection-end-line="817" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5181818">
+          <caret line="950" column="23" selection-start-line="950" selection-start-column="23" selection-end-line="950" selection-end-column="23" />
           <folding />
         </state>
       </provider>
