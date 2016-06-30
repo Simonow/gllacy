@@ -84,20 +84,18 @@
 <main>
     <h3 class="page-title">Сливоченое мороженое</h3>
     <form class="filter" action="">
-        <figure>
-            <figcaption>Сортировка:</figcaption>
-            по популярности
-            <ul>
-                <li>сначала дорогие</li>
-                <li>сначала недорогие</li>
-                <li>по жирности</li>
-            </ul>
-        </figure>
-        <figure class="range">
-            <figcaption>Цена до: <output>100</output> грн.</figcaption>
-            <input type="range" min="0" max="800" value="0">
-        </figure>
-        <fieldset>
+        <select name="sort" id="sort">
+            <option selected>по популярности</option>
+            <option>сначала дорогие</option>
+            <option>сначала недорогие</option>
+            <option>по жирности</option>
+        </select>
+        <label for="sort">Сортировка:</label>
+        <input id="price-range" type="range" min="0" max="800" value="0">
+        <label for="price-range">Цена до:
+            <output>100</output>
+            грн.</label>
+        <fieldset class="oil">
             <legend>Жирность:</legend>
             <input id='zero' type="radio" name="oil">
             <label for="zero">0%</label>
@@ -108,7 +106,7 @@
             <input id='over-thirty' type="radio" name="oil">
             <label for="over-thirty">свыше 30%</label>
         </fieldset>
-        <fieldset>
+        <fieldset class="filler">
             <legend>Наполнители:</legend>
             <input id='choco' type="checkbox" name="oil">
             <label for="choco">шоколадные</label>
