@@ -954,6 +954,21 @@ main {
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.filter label[for=sort]::after {
+    content: '';
+    position: absolute;
+    left: 150px;
+    top: 36px;
+    border-top: 7px solid #ffffff;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
 }
 
 .filter label[for=sort] {
@@ -992,10 +1007,11 @@ main {
     height: 36px;
     border: none;
     position: relative;
-    padding: 8px 15px;
+    padding: 10px 15px 8px;
     margin: 0;
     background-color: #aabab0;
     border-radius: 20px;
+    font-size: 0;
 }
 
 .oil legend {
@@ -1007,13 +1023,20 @@ main {
 .oil label {
     margin-left: 10px;
     margin-right: 18px;
-    vertical-align: top;
+    vertical-align: middle;
+    font-size: 16px;
     line-height: 16px;
     cursor: pointer;
 }
 
 .oil label:last-child {
     margin-right: 0;
+}
+
+.oil input {
+    margin-top: 3px;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 .filler {
@@ -1024,10 +1047,11 @@ main {
     height: 36px;
     border: none;
     position: relative;
-    padding: 8px 15px;
+    padding: 10px 15px 8px;
     margin: 38px 15px 0 0;
     background-color: #aabab0;
     border-radius: 20px;
+    font-size: 0;
 }
 
 .filler legend {
@@ -1041,6 +1065,13 @@ main {
     margin-right: 18px;
     vertical-align: top;
     line-height: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.filler input {
+    margin-top: 3px;
+    vertical-align: middle;
     cursor: pointer;
 }
 
