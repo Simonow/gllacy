@@ -550,8 +550,8 @@ nav ul {
 
 nav ul > li {
     display: inline-block;
-    margin-right: 25px;
     vertical-align: baseline;
+    margin-right: 25px;
     position: relative;
 }
 
